@@ -7,9 +7,13 @@
 <body>
 <div class="box">
 <h1 class="title">Place an Order</h1>
+    <h3>Choose A Drink</h3>
 <input id="name" type="text">
-<input id="coffee" type="text">
-<input id="quantity" type="text">
+    <select name="drinks" id="drinks">
+        <option value="2.99">Coffee</option>
+        <option value="5.99">Dark Coffee</option>
+    </select>
+<input type="text" id="quantity" placeholder="1">
     <div>
 <button id="submit">Order Now</button>
     </div>
